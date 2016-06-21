@@ -53,13 +53,13 @@ class ViewController: NSViewController {
 
     func showAlertWithMessage(message: String)
     {
-        ///
         let alert = NSAlert()
         alert.addButtonWithTitle("Ok")
         alert.messageText = "Error"
         alert.informativeText = message
         alert.alertStyle = .CriticalAlertStyle
         alert.runModal()
+        /// some conflict line
     }
     
     
