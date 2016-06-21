@@ -59,7 +59,11 @@ class ViewController: NSViewController {
         alert.informativeText = message
         alert.alertStyle = .CriticalAlertStyle
         alert.runModal()
+
+        /// hello
+
         /// some conflict line
+
     }
     
     
