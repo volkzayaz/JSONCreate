@@ -53,6 +53,7 @@ class ViewController: NSViewController {
 
     func showAlertWithMessage(message: String)
     {
+        ///
         let alert = NSAlert()
         alert.addButtonWithTitle("Ok")
         alert.messageText = "Error"
